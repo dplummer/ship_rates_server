@@ -18,4 +18,11 @@ describe ShipRatesServer do
       last_response.body.should == "ok"
     end
   end
+
+  describe "/" do
+    it "returns the README.md as html" do
+      get '/'
+      last_response.body.should include('<h1 id="shipratesserver">ShipRatesServer</h1>')
+    end
+  end
 end

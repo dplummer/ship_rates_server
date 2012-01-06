@@ -21,9 +21,15 @@ Testing
 
     $ rake
 
+Source
+------
+
+[https://github.com/dplummer/ship_rates_server][source]
+
 Author
 ------
 
-[Donald Plummer][1]
+[Donald Plummer][dp]
 
-[1]:https://github.com/dplummer
+[source]:https://github.com/dplummer/ship_rates_server
+[dp]:https://github.com/dplummer
